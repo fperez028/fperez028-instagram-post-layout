@@ -1,83 +1,102 @@
-body{
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.ig-card{
-    background-color: white;
-    height: 670px;
-    width: 540px;
-    margin: 50px auto;
+.ig-card {
+  background-color: white;
+  height: 670px;
+  width: 540px;
+  margin: 50px auto;
+  border-radius: 8px;
 }
 
-.ig-header{
-    width: 100%;
-    height: 9%;
-    display: flex;
+.ig-header {
+  width: 100%;
+  height: 9%;
+  display: flex;
 }
 
-.title1, .title2{
-    font-size: 15px;
+.title1,
+.title2 {
+  font-size: 15px;
 }
 
-.title1{
-    margin: 10px 0 0 0;
-    font-weight: bold;
+.title1 {
+  margin: 10px 0 0 0;
+  font-weight: bold;
 }
 
-.title2{
-    margin: 0 0 0 0;
+.title2 {
+  margin: 0 0 0 0;
 }
 
-.logo{
-    width: 8%;
+.logo {
+  width: 8%;
 }
 
-.titles{
-    width: 87%;
+.titles {
+  width: 87%;
 }
 
-.menu{
-    width: 5%;
+.menu {
+  width: 5%;
 }
 
-.fa-html5{
-    font-size: xx-large;
-    margin-top: 13px;
-    margin-left: 15px;
+.fa-html5 {
+  font-size: xx-large;
+  margin-top: 13px;
+  margin-left: 15px;
 }
 
-.fa-ellipsis-vertical{
-    font-size: xx-large;
-    margin-top: 13px;
+.fa-ellipsis-vertical {
+  font-size: xx-large;
+  margin-top: 13px;
 }
 
-.ig-image{
-    width: 100%;
-    height: 59%;
+.ig-image-container {
+  height: 59%;
 }
 
-.ig-content{
-    width: 100%;
-    height: 33%;
+.ig-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
-.icons{
-    display: flex;
-    margin-top: 10px;
-    font-size: xx-large;
+.ig-content {
+  width: 100%;
+  height: 33%;
 }
 
-.icons, .likes, .summary{
-    margin-left: 15px;
-    margin-right: 5px;
+.icons {
+  display: flex;
+  margin-top: 10px;
+  font-size: xx-large;
 }
 
-.icon-set1{
-    width: 92%;
+.icons,
+.likes,
+.summary {
+  margin-left: 15px;
+  margin-right: 5px;
 }
 
-.icon-set2{
-    width: 8%;
-    margin-left: 20px;
+.icon-set1 {
+  width: 92%;
+}
+
+.icon-set2 {
+  width: 8%;
+  margin-left: 20px;
+}
+
+.icons,
+.menu i:hover {
+  cursor: pointer;
+}
+
+.icons i:hover {
+  transform: scale(1.1);
 }
